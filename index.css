@@ -1,0 +1,17 @@
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    height: 20px;
+    width: 20px;  
+    border: solid thin; 
+}
+
+table{
+    border: 1px thin black;
+    width: 200px;    
+    border-collapse: collapse; 
+}
+
+button{
+    text-align: center;
+}
