@@ -38,7 +38,7 @@ function createTable(userNum){
             table.append("<tr><th>" + userNum + "</th></tr>");  
         }
         else if(i == 1){
-            table.append("<tr><th>Programmer's Name</th></tr>");   
+            table.append("<tr><th>" +  ($("#nameInput").val()) +  "</th></tr>");   
         }else{
             table.append("<tr><td></td></tr>");
         }
